@@ -5,11 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     EditText num_first, num_second, num_third;
@@ -50,11 +49,12 @@ public class MainActivity extends AppCompatActivity {
             if (TextUtils.isEmpty(num_first.getText().toString())
                     || TextUtils.isEmpty(num_second.getText().toString())
                     || TextUtils.isEmpty(num_third.getText().toString())) {
-                return;
+                Toast.makeText(MainActivity.this, "Enter num", Toast.LENGTH_SHORT).show();
+            } else {
+                result = (Integer.parseInt(num_first.getText().toString())
+                        + Integer.parseInt(num_second.getText().toString())
+                        + Integer.parseInt(num_third.getText().toString()));
             }
-            result = (Integer.parseInt(num_first.getText().toString())
-                    + Integer.parseInt(num_second.getText().toString())
-                    + Integer.parseInt(num_third.getText().toString()));
         });
     }
 }
