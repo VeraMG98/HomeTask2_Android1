@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HomeTask2_Android1</string>
+    <string name="enter_first_num">Enter first num</string>
+    <string name="enter_second_num">Enter second num</string>
+    <string name="enter_third_num">Enter third num</string>
+    <string name="sum">Sum</string>
+    <string name="result">Result</string>
+</resources>
