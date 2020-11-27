@@ -5,4 +5,5 @@
     <string name="enter_third_num">Enter third num</string>
     <string name="sum">Sum</string>
     <string name="result">Result</string>
+    <string name="plus">\"+\"</string>
 </resources>

@@ -109,38 +109,4 @@
             android:textColor="@color/white"
             android:text="@string/result"/>
     </LinearLayout>
-
-    <EditText
-        android:id="@+id/calculate_edit"
-        android:layout_below="@id/l_4"
-        android:layout_marginTop="50dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:gravity="center_horizontal"/>
-
-    <LinearLayout
-        android:layout_below="@id/l_4"
-        android:layout_marginTop="100dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/second_result"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:text="@string/result"
-            android:textColor="@color/white"/>
-
-        <Button
-            android:id="@+id/button_result"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/cardview_dark_background"
-            android:textColor="@color/white"
-            android:text="@string/result"/>
-    </LinearLayout>
 </RelativeLayout>
