@@ -12,8 +12,9 @@
         android:theme="@style/Theme.HomeTask2_Android1"
         tools:ignore="ExtraText">
         <activity
-            android:name=".MainActivity">
-            <!--android:screenOrientation="portrait"-->
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+
             <intent-filter tools:ignore="ExtraText">
                 <action android:name="android.intent.action.MAIN" />
 
